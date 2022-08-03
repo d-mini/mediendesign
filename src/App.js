@@ -16,9 +16,9 @@ function App() {
     <div className='app'>
       <NavBar color={color}></NavBar>
       <img id='main-img' src={process.env.PUBLIC_URL + '/images/samgyeopsal.jpg'} alt='' />
-      <div id='section1' ref={section1} className='section'></div>
-      <div id='section2' ref={section2} className='section'></div>
-      <div id='section3' ref={section3} className='section'></div>
+      <div id='section1' ref={section1} className='section'><h1>Test</h1></div>
+      <div id='section2' ref={section2} className='section'><h1>Test</h1></div>
+      <div id='section3' ref={section3} className='section'><h1>Test</h1></div>
     </div>
   );
 }

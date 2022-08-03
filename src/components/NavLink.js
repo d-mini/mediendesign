@@ -1,11 +1,15 @@
 import React from 'react';
 import './NavLink.css';
 
-function NavLink() {
+function NavLink(props) {
+  const handleClick = () => {
+		document.getElementById(props.toId).scrollIntoView({ behavior: 'smooth' });
+	};
+
   return (
-    <div className='navlink'>
-      Test
-    </div>
+    <span className='navlink' onClick={handleClick}>
+      {props.children}
+    </span>
   );
 }
 
