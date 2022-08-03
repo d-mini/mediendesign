@@ -1,4 +1,17 @@
-.App {
-  background-color: skyblue;
+.app {
+  background-color: white;
+}
+
+#main-img {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+
+  filter: brightness(70%);
+}
+
+.section {
   min-height: 100vh;
+  width: 100%;
 }

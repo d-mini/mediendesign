@@ -3,8 +3,8 @@ import './NavLink.css';
 
 function NavLink() {
   return (
-    <div className='NavLink'>
-      <h1>Test</h1>
+    <div className='navlink'>
+      Test
     </div>
   );
 }
