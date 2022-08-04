@@ -1,7 +1,6 @@
 import React from 'react';
 import './NavBar.css';
 import NavLink from './NavLink';
-import logo from '../logo.svg';
 
 function NavBar(props) {
   return (
@@ -9,7 +8,7 @@ function NavBar(props) {
       <ul>
         <li><NavLink toId='main-img'>Home</NavLink></li>
         <li><NavLink toId='section1'>Ingredients</NavLink></li>
-        <li className='logo'><NavLink toId='main-img'><img src={logo} alt="Logo"/></NavLink></li>
+        <li className='logo'><NavLink toId='main-img'><img src='/images/logo.svg' alt="Logo"/></NavLink></li>
         <li><NavLink toId='section2'>Test</NavLink></li>
         <li><NavLink toId='section3'>Test</NavLink></li>
       </ul>

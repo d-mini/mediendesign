@@ -1,17 +1,35 @@
+@import 'variables.css';
+
 .app {
-  background-color: white;
+  background-color: var(--white);
 }
 
 #main-img {
   width: 100%;
+  height: 500px;
+  object-fit: cover;
   overflow: hidden;
   display: flex;
   justify-content: center;
 
-  filter: brightness(65%);
+  filter: brightness(60%);
 }
 
 .section {
   min-height: 100vh;
   width: 100%;
+  margin: 50px auto;
+  padding: 0 100px;
+}
+
+#section1 h1 {
+  color: var(--main);
+}
+
+#section2 h1 {
+  color: var(--secondary);
+}
+
+#section3 h1 {
+  color: var(--main);
 }

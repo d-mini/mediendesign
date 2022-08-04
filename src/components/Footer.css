@@ -1,0 +1,6 @@
+@import '../variables.css';
+
+.footer {
+    background-color: var(--main-dark);
+    height: 50px;
+}
