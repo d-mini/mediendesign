@@ -10,15 +10,26 @@ function App() {
   const [section2, section2InView] = useInView({ threshold: 0.25 });
   const [section3, section3InView] = useInView({ threshold: 0.25 });
 
+  const activeSection = () => {
+    if (startInView)
+      return 0;
+    if (section1InView)
+      return 1;
+    if (section2InView)
+      return 2;
+    if (section3InView)
+      return 3;
+  };
+
   const color = startInView ? "transparent"
-    : section1InView ? "green"
-    : section2InView ? "red"
-    : section3InView ? "green"
-    : "transparent";
+  : section1InView ? "green"
+  : section2InView ? "red"
+  : section3InView ? "green"
+  : "transparent";
 
   return (
     <div className='app'>
-      <NavBar color={color}></NavBar>
+      <NavBar activeSection={activeSection()} color={color}></NavBar>
       <img id='main-img' ref={start} src={process.env.PUBLIC_URL + '/images/samgyeopsal.jpg'} alt='' />
       <div id='section1' ref={section1} className='section'>
         <h1>Test</h1>

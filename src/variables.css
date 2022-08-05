@@ -1,7 +1,10 @@
 :root {
     --main: #055902;
     --main-dark: #022601;
-    --secondary: #D95204;
+    --main-light: #A9BF04;
+    --secondary: #A61B1B;
+    --secondary-dark: #731717;
+    --secondary-light: #D95204;
     --text: #222222;
     --white: #FFFFFF;
 }

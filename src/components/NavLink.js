@@ -1,9 +1,10 @@
 import React from 'react';
 import './NavLink.css';
+import { NavLink } from 'react-router-dom';
 
 function NavLink(props) {
   const handleClick = () => {
-    const targetElement = document.getElementById(props.toId);
+    const targetElement = document.getElementById(props.to);
     const offset = 130;
     const bodyRect = document.body.getBoundingClientRect().top;
     const elementRect = targetElement.getBoundingClientRect().top;
@@ -17,9 +18,9 @@ function NavLink(props) {
 	};
 
   return (
-    <span className='navlink' onClick={handleClick}>
+    <NavLink className='navlink' to={props.to} onClick={handleClick}>
       {props.children}
-    </span>
+    </NavLink>
   );
 }
 

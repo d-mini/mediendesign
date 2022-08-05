@@ -50,6 +50,26 @@
     width: 100%;
 }
 
+.navlink {
+    color: var(--white);
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navlink-active {
+    text-decoration: underline;
+}
+
+.navlink:hover {
+    color: #D9B391;
+}
+
+.navlink:active {
+    font-weight: bold;
+}
+
 @media only screen and (min-width: 600px) {
     .navbar ul {
         display: flex;
