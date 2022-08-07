@@ -12,14 +12,22 @@ function App() {
   const [section3, section3InView] = useInView({ threshold: 0.25 });
 
   const activeSection = () => {
-    if (startInView)
+    if (startInView) {
+      window.history.replaceState(null, "", "/");
       return 0;
-    if (section1InView)
+    } 
+    if (section1InView) {
+      window.history.replaceState(null, "", "/#section1");
       return 1;
-    if (section2InView)
+    }
+    if (section2InView) {
+      window.history.replaceState(null, "", "/#section2");
       return 2;
-    if (section3InView)
+    }
+    if (section3InView) {
+      window.history.replaceState(null, "", "/#section3");
       return 3;
+    }
   };
 
   const color = startInView ? "transparent"
