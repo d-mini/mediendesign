@@ -1,6 +1,8 @@
 import React from 'react';
 import './NavBar.css';
 import { HashLink } from 'react-router-hash-link';
+import burgerMenu from '../images/Hamburger_icon.svg';
+import logo from '../images/logo.svg';
 
 function NavBar(props) {
   const offsetScroll = (element) => {
@@ -18,10 +20,13 @@ function NavBar(props) {
 
   return (
     <nav className={`navbar navbar-${props.color}`}>
+      <button className='burger-menu'>
+        <img src={burgerMenu} alt='Menu'/>
+      </button>
       <ul>
         <li><HashLink className={'navlink' + (props.activeSection === 0 ? ' navlink-active' : '')} smooth to='/#'>Home</HashLink></li>
         <li><HashLink className={'navlink' + (props.activeSection === 1 ? ' navlink-active' : '')} smooth scroll={offsetScroll} to='/#section1'>Ingredients</HashLink></li>
-        <li className='logo'><HashLink smooth to='/#'><img src='/images/logo.svg' alt="Logo"/></HashLink></li>
+        <li className='logo'><HashLink smooth to='/#'><img src={logo} alt="Logo"/></HashLink></li>
         <li><HashLink className={'navlink' + (props.activeSection === 2 ? ' navlink-active' : '')} smooth scroll={offsetScroll} to='/#section2'>Test</HashLink></li>
         <li><HashLink className={'navlink' + (props.activeSection === 3 ? ' navlink-active' : '')} smooth scroll={offsetScroll} to='/#section3'>Test</HashLink></li>
       </ul>

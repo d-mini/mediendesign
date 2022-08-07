@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    min-height: 60px;
     z-index: 500;
 
     transition: background-color 0.25s ease;
@@ -25,29 +26,60 @@
     background-color: transparent;
 }
 
-.navbar ul {
+.burger-menu {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+
+    height: 50px;
+    width: 50px;
+
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    border-style: none;
+    border-radius: 25%;
+
+    background-color: transparent;
+
+    padding: 5px;
+
+    cursor: pointer;
+}
+
+.burger-menu:hover {
+    background-color: #D9B391;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+}
+
+.logo img, .burger-menu img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar ul {
+    position: absolute;
+    top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 
     margin: 5px 0 5px 0;
 }
 
 .navbar ul li {
     display: block;
-}
-
-.logo {
-    position: absolute;
-    left: 0;
-    top: 0;
-
-    height: 60px;
-    width: 60px;
-}
-
-.logo img {
-    height: 100%;
-    width: 100%;
+    margin-bottom: 5px;
 }
 
 .navlink {
@@ -71,7 +103,24 @@
 }
 
 @media only screen and (min-width: 600px) {
+    .burger-menu {
+        display: none;
+    }
+    
+    .logo {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;  
+        justify-content: center;
+        height: 70px;
+        width: 70px;
+    }
+
     .navbar ul {
+        position: relative;
+        top: 0;
+
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -83,6 +132,10 @@
         flex: 1;
         display: flex;
     }
+
+    .navlink {
+        display: block;
+    }
     
     .navbar ul li:nth-child(1), .navbar ul li:nth-child(2) {
         justify-content: flex-end;
@@ -90,12 +143,5 @@
     
     .navbar ul li:nth-child(4), .navbar ul li:nth-child(5) {
         justify-content: flex-start;
-    }
-    
-    .logo {
-        position: relative;
-        justify-content: center;
-        height: 70px;
-        width: 70px;
     }
 }

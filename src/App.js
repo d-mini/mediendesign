@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import { useInView } from "react-intersection-observer";
 import Galery from './components/Galery';
 import Footer from './components/Footer';
+import main from './images/samgyeopsal.jpg';
 
 function App() {
   const [start, startInView] = useInView({ threshold: 0.75 });
@@ -30,7 +31,7 @@ function App() {
   return (
     <div className='app'>
       <NavBar activeSection={activeSection()} color={color}></NavBar>
-      <img id='main-img' ref={start} src={process.env.PUBLIC_URL + '/images/samgyeopsal.jpg'} alt='' />
+      <img id='main-img' ref={start} src={main} alt='' />
       <div id='section1' ref={section1} className='section'>
         <h1>Test</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
