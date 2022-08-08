@@ -6,10 +6,10 @@ import Footer from './components/Footer';
 import main from './images/samgyeopsal.jpg';
 
 function App() {
-  const [start, startInView] = useInView({ threshold: 0.75 });
-  const [section1, section1InView] = useInView({ threshold: 0.25 });
-  const [section2, section2InView] = useInView({ threshold: 0.25 });
-  const [section3, section3InView] = useInView({ threshold: 0.25 });
+  const [start, startInView] = useInView({ threshold: 0.5 });
+  const [section1, section1InView] = useInView({ threshold: 0.15 });
+  const [section2, section2InView] = useInView({ threshold: 0.15 });
+  const [section3, section3InView] = useInView({ threshold: 0.15 });
 
   const activeSection = () => {
     if (startInView) {
