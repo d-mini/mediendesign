@@ -4,8 +4,8 @@
     position: fixed;
     top: 0;
     width: 100%;
-    min-height: 60px;
-    z-index: 500;
+    height: auto;
+    z-index: 100;
 
     transition: background-color 0.25s ease;
 }
@@ -31,6 +31,8 @@
     right: 5px;
     top: 5px;
 
+    z-index: 200;
+
     height: 50px;
     width: 50px;
 
@@ -52,41 +54,34 @@
     background-color: #D9B391;
 }
 
+.navbar ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    margin: 5px 0;
+}
+
+.navbar ul li {
+    margin-bottom: 5px;
+}
+
+.nav-menu .navitem {
+    display: none;
+}
+
+.nav-menu-expanded .navitem {
+    display: block;
+    text-align: center;
+}
+
 .logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     height: 50px;
 }
 
 .logo img, .burger-menu img {
     height: 100%;
     width: 100%;
-}
-
-.navbar ul {
-    position: absolute;
-    top: 60px;
-
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-    margin: 5px 0 5px 0;
-}
-
-.nav-menu {
-    display: none;
-}
-
-.nav-menu-expanded {
-    display: flex;
-}
-
-.navbar ul li {
-    display: block;
-    margin-bottom: 5px;
 }
 
 .navlink {
@@ -113,21 +108,8 @@
     .burger-menu {
         display: none;
     }
-    
-    .logo {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;  
-        justify-content: center;
-        height: 70px;
-        width: 70px;
-    }
 
     .navbar ul {
-        position: relative;
-        top: 0;
-
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -139,16 +121,24 @@
         flex: 1;
         display: flex;
     }
-
-    .navlink {
-        display: block;
-    }
     
-    .navbar ul li:nth-child(1), .navbar ul li:nth-child(2) {
+    .navbar ul li:nth-child(2), .navbar ul li:nth-child(3) {
         justify-content: flex-end;
+        order: 1;
     }
     
     .navbar ul li:nth-child(4), .navbar ul li:nth-child(5) {
         justify-content: flex-start;
+        order: 3;
+    }
+
+    .logo {
+        justify-content: center;
+        min-height: 70px;
+        order: 2;
+    }
+
+    .nav-menu .navitem, .nav-menu-expanded .navitem {
+        display: flex;
     }
 }
