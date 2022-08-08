@@ -24,6 +24,8 @@
 
 .navbar-transparent {
     background-color: transparent;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    filter: drop-shadow( 2px 2px 2px rgba(0,0,0,0.5) );
 }
 
 .burger-menu {
@@ -94,6 +96,7 @@
 
 .navlink-active {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .navlink:hover {
