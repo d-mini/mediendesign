@@ -4,12 +4,24 @@
   background-color: var(--white);
 }
 
+img {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 #main-img {
   width: 100%;
   height: 75vh;
-  object-fit: cover;
-  overflow: hidden;
-
   filter: brightness(65%);
 }
 
@@ -40,8 +52,6 @@
   left: 0;
   height: 50vh;
   width: 100%;
-  object-fit: cover;
-  overflow: hidden;
 }
 
 #about h1, #howto h1 {
@@ -50,4 +60,11 @@
 
 #ingredients h1 {
   color: var(--secondary-light);
+}
+
+.image-shadow {
+  height: 300px;
+  min-width: 300px;
+  box-shadow: -20px 20px var(--secondary);
+  margin-bottom: 20px;
 }

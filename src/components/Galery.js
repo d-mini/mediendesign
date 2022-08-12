@@ -1,21 +1,22 @@
 import React from 'react';
 import GaleryImage from './GaleryImage';
 import './Galery.css';
-import porkBelly from '../images/pork_belly.jpg';
+import sprouts from '../images/sprouts.jpg';
 import kimchi from '../images/kimchi.jpg';
+import scallions from '../images/scallions.webp';
 
 
 function Galery() {
   return (
     <div className='galery'>
+      <GaleryImage label='Scallions'>
+        <img src={scallions} alt='Scallions' />
+      </GaleryImage>
       <GaleryImage label='Kimchi'>
         <img src={kimchi} alt='Pork Belly' />
       </GaleryImage>
-      <GaleryImage label='Pork Belly'>
-        <img src={porkBelly} alt='Pork Belly' />
-      </GaleryImage>
-      <GaleryImage label='Kimchi'>
-        <img src={kimchi} alt='Kimchi' />
+      <GaleryImage label='Sprouts'>
+        <img src={sprouts} alt='Sprouts' />
       </GaleryImage>
     </div>
   );
