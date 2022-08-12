@@ -8,10 +8,18 @@ import kimchi from '../images/kimchi.jpg';
 function Galery() {
   return (
     <div className='galery'>
-      <GaleryImage src={'../images/pork_belly.jpg'} label='Pork Belly'></GaleryImage>
-      <GaleryImage src={'../images/kimchi.jpg'} label='Kimchi'></GaleryImage>
-      <GaleryImage src={'../images/pork_belly.jpg'} label='Pork Belly'></GaleryImage>
-      <GaleryImage src={'../images/kimchi.jpg'} label='Kimchi'></GaleryImage>
+      <GaleryImage label='Pork Belly'>
+        <img src={porkBelly} alt='Kimchi' />
+      </GaleryImage>
+      <GaleryImage label='Kimchi'>
+        <img src={kimchi} alt='Pork Belly' />
+      </GaleryImage>
+      <GaleryImage label='Pork Belly'>
+        <img src={porkBelly} alt='Pork Belly' />
+      </GaleryImage>
+      <GaleryImage label='Kimchi'>
+        <img src={kimchi} alt='Kimchi' />
+      </GaleryImage>
     </div>
   );
 }
