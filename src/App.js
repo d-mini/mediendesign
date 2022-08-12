@@ -27,41 +27,67 @@ function App() {
     }
   };
 
-  const color = startInView ? "transparent"
-  : section1InView ? "green"
-  : section2InView ? "red"
-  : section3InView ? "green"
-  : "transparent";
+  const color = () => {
+    if (startInView) {
+      return 'transparent';
+    }
+    if (section1InView) {
+      return 'green';
+    }
+    if (section2InView) {
+      return 'red';
+    }
+    if (section3InView) {
+      return 'green';
+    }
+  };
 
   return (
     <div className='app'>
-      <NavBar activeSection={activeSection()} color={color}></NavBar>
+      <NavBar activeSection={activeSection()} color={color()}></NavBar>
       <img id='main-img' ref={start} src={samgyeopsal} alt='' />
-      <div id='section1' ref={section1} className='section'>
-        <h1>About 삼겹살</h1>
+      <div id='about' ref={section1} className='section'>
         <div className='section__content'>
-          <h2>What is 삼겹살?</h2>   
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <h2>More Interesting Facts</h2>
+          <h1>About</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
+        <div className='section-color'>
+          <div className='section__content'>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   
+          </div>
+        </div>
       </div>
-      <div id='section2' ref={section2} className='section'>
-        <h1>Ingredients</h1>
+      <div id='ingredients' ref={section2} className='section'>
         <img className='section__image' src={main} alt='' />
         <div className='section__content'>
+          <h1>Ingredients</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <Galery></Galery>
+        </div>
+        <div className='section-color-right'>
+          <div className='section__content'>
+            <h2>Test</h2>
+            <Galery></Galery>
+          </div>
+        </div>
+        <div className='section-color-left'>
+          <div className='section__content'>
+            <h2>Test</h2>
+            <Galery></Galery>
+          </div>
         </div>
       </div>
-      <div id='section3' ref={section3} className='section'>
-        <h1>How to enjoy 삼겹살?</h1>
+      <div id='howto' ref={section3} className='section'>
         <div className='section__content'>
+          <h1>How to eat</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
+        <div className='section-color'>
+          <div className='section__content'>
+            <p>Test</p>
+          </div>
+        </div>
       </div>
-
       <Footer></Footer>
     </div>
   );

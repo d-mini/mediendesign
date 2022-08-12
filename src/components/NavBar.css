@@ -58,7 +58,7 @@
 }
 
 .burger-menu:hover svg path {
-    fill: #D9B391;
+    fill: var(--main-light);
 }
 
 .navbar ul {

@@ -8,9 +8,6 @@ import kimchi from '../images/kimchi.jpg';
 function Galery() {
   return (
     <div className='galery'>
-      <GaleryImage label='Pork Belly'>
-        <img src={porkBelly} alt='Kimchi' />
-      </GaleryImage>
       <GaleryImage label='Kimchi'>
         <img src={kimchi} alt='Pork Belly' />
       </GaleryImage>

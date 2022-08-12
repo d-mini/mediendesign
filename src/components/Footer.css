@@ -1,7 +1,7 @@
 @import '../variables.css';
 
 .footer {
-    background-color: var(--main-dark);
+    background-color: var(--main);
     height: 50px;
 
     display: flex;

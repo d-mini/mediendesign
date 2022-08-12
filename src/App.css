@@ -14,13 +14,26 @@
 }
 
 .section {
-  min-height: 90vh;
   width: 100%;
-  margin: 50px auto;
 }
 
-.section__content {
-  padding: 0 50px;
+.section-color {
+  width: 100%;
+  background-color: var(--main-light);
+}
+
+.section-color-left {
+  width: 100%;
+  background: linear-gradient(to right, var(--main-light) 50%, var(--white) 0%);
+}
+
+.section-color-right {
+  width: 100%;
+  background: linear-gradient(to left, var(--main-light) 50%, var(--white) 0%);
+}
+
+.section__content {
+  padding: 75px 150px;
 }
 
 .section__image {
@@ -31,20 +44,10 @@
   overflow: hidden;
 }
 
-#section1 h1 {
-  color: var(--main);
+#about h1, #howto h1 {
+  color: var(--primary-light);
 }
 
-#section2 h1 {
-  color: var(--secondary);
-}
-
-#section3 h1 {
-  color: var(--main);
-}
-
-@media only screen and (min-width: 600px) {
-  .section__content {
-    padding: 0 100px;
-  }
+#ingredients h1 {
+  color: var(--secondary-light);
 }
