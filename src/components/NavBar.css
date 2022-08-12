@@ -3,11 +3,11 @@
 .navbar {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: auto;
     z-index: 100;
 
-    transition: background-color 0.25s ease;
+    transition: all 0.25s ease;
 }
 
 .navbar-green {
@@ -52,8 +52,12 @@
     cursor: pointer;
 }
 
-.burger-menu:hover {
-    background-color: #D9B391;
+.burger-menu svg path {
+    fill: white;
+}
+
+.burger-menu:hover svg path {
+    fill: #D9B391;
 }
 
 .navbar ul {
@@ -101,10 +105,6 @@
 
 .navlink:hover {
     color: #D9B391;
-}
-
-.navlink:active {
-    font-weight: bold;
 }
 
 @media only screen and (min-width: 600px) {

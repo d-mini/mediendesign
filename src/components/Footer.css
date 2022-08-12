@@ -3,4 +3,8 @@
 .footer {
     background-color: var(--main-dark);
     height: 50px;
+
+    display: flex;
+    align-items: center;
+    color: var(--white);
 }
