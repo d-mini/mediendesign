@@ -14,11 +14,3 @@ img {
   height: 75vh;
   filter: brightness(65%);
 }
-
-.about h1, #howto h1 {
-  color: var(--primary);
-}
-
-.ingredients h1 {
-  color: var(--secondary);
-}
