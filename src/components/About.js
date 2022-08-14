@@ -41,7 +41,7 @@ function About() {
                             Due to its great popularity in South Korea, the third day of the third month, the <span className='font-bold'>3rd March</span>, is a designated day to promote the consumption of the grilled pork belly, the <span className='font-bold'>"Samgyeopsal Day"</span>.
                         </li>
                         <li>
-                            There is a <span className='font-bold'>myth</span> in South Korea that eating Samgyeopsal <span className='font-bold'>protects humans from air pollution</span> by fine dust. This is thought to have originated from the practice of Korean miners eating pork after an intensive mining operation.
+                            There is a <span className='font-bold'>myth</span> in South Korea that <span className='font-bold'>eating 삼겹살 protects humans from air pollution</span> by fine dust. This is thought to have originated from the practice of Korean miners eating pork after an intensive mining operation.
                         </li>
                     </ul>
                 </div>
