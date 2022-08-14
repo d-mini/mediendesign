@@ -14,8 +14,9 @@
     "tailwindcss": "^3.1.8"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "postcss src/tailwind.css -o src/main.css && react-scripts start",
+    "build": "postcss src/tailwind.css -o src/main.css && react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
