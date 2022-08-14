@@ -27,7 +27,14 @@ function Ingredients() {
                 title={<h1 className={`text-white lg:text-secondary mb-3`}>Ingredients</h1>}
                 content=
                 {
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div>
+                        <p>
+                            The main ingredient of samgyeopsal are <span className='font-bold text-secondary-light'>thick, fatty slices of pork belly</span> which are grilled on a metal griddle or charcoal grill. The meat is <span className='font-bold text-secondary-light'>usually neither marinated nor seasoned</span>.
+                        </p>
+                        <p>
+                            Common accompaniments for 삼겹살 are several <span className='font-bold text-secondary-light'>vegetables</span> which are used to wrap the meat, can be eaten raw or grilled along with the meat, <span className='font-bold text-secondary-light'>Korean side dishes and dipping sauces</span> such as <span className='font-bold text-secondary-light'>쌈장</span> („ssamjang“, thick spicy paste made with Korean chili paste and soy bean paste) and <span className='font-bold text-secondary-light'>기름장</span> („gireum-jang“, made with sesame oil, salt, and black pepper).
+                        </p>
+                    </div>
                 }
             >
             </ShadowImageSection>
@@ -43,9 +50,9 @@ function Ingredients() {
                             <img src={garlic} alt='Garlic' />
                         </GalleryImage>
                         <GalleryImage label='깻잎' description={
-                            <div>"Kkaennip"<br/>Perilla Leaf</div>
+                            <div>"Kkaennip"<br />Perilla Leaves</div>
                         }>
-                            <img src={perilla} alt='Perilla Leafs' />
+                            <img src={perilla} alt='Perilla Leaf' />
                         </GalleryImage>
                     </Gallery>
                 </div>
@@ -56,17 +63,17 @@ function Ingredients() {
                     <h2 className='text-secondary-light order-first xl:order-last sm:self-end xl:self-auto flex-shrink-0'>Side Dishes</h2>
                     <Gallery>
                         <GalleryImage label='파 무침' description={
-                            <div>"Pa Muchim"<br/>Scallion Salad</div>
+                            <div>"Pa Muchim"<br />Scallion Salad</div>
                         }>
                             <img src={scallions} alt='Scallions' />
                         </GalleryImage>
                         <GalleryImage label='김치' description={
-                            <div>"Kimchi"<br/>Fermented Napa Cabbage</div>
+                            <div>"Kimchi"<br />Fermented Napa Cabbage</div>
                         }>
                             <img src={kimchi} alt='Kimchi' />
                         </GalleryImage>
                         <GalleryImage label='콩나물 무침' description={
-                            <div>"Kongnamul Muchim"<br/>Soybean Sprouts</div>
+                            <div>"Kongnamul Muchim"<br />Soybean Sprouts</div>
                         }>
                             <img src={sprouts} alt='Sprouts' />
                         </GalleryImage>
