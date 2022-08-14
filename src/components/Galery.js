@@ -9,13 +9,13 @@ import scallions from '../images/scallions.webp';
 function Galery() {
   return (
     <div className='galery'>
-      <GaleryImage label='Scallions'>
+      <GaleryImage label='Pa Muchim' description='Scallion Salad'>
         <img src={scallions} alt='Scallions' />
       </GaleryImage>
-      <GaleryImage label='Kimchi'>
-        <img src={kimchi} alt='Pork Belly' />
+      <GaleryImage label='Kimchi' description='Fermented Cabbage'>
+        <img src={kimchi} alt='Pork Belly'  />
       </GaleryImage>
-      <GaleryImage label='Sprouts'>
+      <GaleryImage label='Kongnamul Muchim' description='Soybean Sprouts'>
         <img src={sprouts} alt='Sprouts' />
       </GaleryImage>
     </div>

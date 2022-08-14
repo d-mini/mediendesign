@@ -43,11 +43,6 @@
     align-items: center;
     justify-content: center;
 
-    border-style: none;
-    border-radius: 25%;
-
-    background-color: transparent;
-
     padding: 5px;
 
     cursor: pointer;

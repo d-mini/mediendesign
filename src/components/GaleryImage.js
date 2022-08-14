@@ -5,7 +5,10 @@ function GaleryImage(props) {
   return (
     <figure className='galeryImage'>
       {props.children}
-      <figcaption>{props.label}</figcaption>
+      <figcaption>
+        <div>{props.label}</div>
+        <div>{props.description}</div>
+      </figcaption>
     </figure>
   );
 }

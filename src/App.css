@@ -55,16 +55,9 @@ img {
 }
 
 #about h1, #howto h1 {
-  color: var(--primary-light);
+  color: var(--primary);
 }
 
 #ingredients h1 {
-  color: var(--secondary-light);
-}
-
-.image-shadow {
-  height: 300px;
-  min-width: 300px;
-  box-shadow: -20px 20px var(--secondary);
-  margin-bottom: 20px;
+  color: var(--secondary);
 }
