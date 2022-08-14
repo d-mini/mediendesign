@@ -37,6 +37,6 @@
 
 .galleryImage:hover img {
     filter: brightness(75%);
-    border-color: var(--secondary);
+    border-color: var(--secondary-light);
     border-width: 2px;
 }

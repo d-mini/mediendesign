@@ -20,14 +20,14 @@ function Ingredients() {
 
             <div className='w-full section-color-right'>
                 <div className='flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-8 py-12 px-12 sm:py-16 sm:px-16'>
-                    <h2 className='text-secondary sm:self-start xl:self-auto'>Vegetables</h2>
+                    <h2 className='text-secondary-light sm:self-start xl:self-auto'>Vegetables</h2>
                     <Gallery></Gallery>
                 </div>
             </div>
 
             <div className='w-full section-color-left'>
                 <div className='flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-8 py-12 px-12 sm:py-16 sm:px-16'>
-                    <h2 className='text-secondary order-first xl:order-last sm:self-end xl:self-auto shrink-0'>Side Dishes</h2>
+                    <h2 className='text-secondary-light order-first xl:order-last sm:self-end xl:self-auto shrink-0'>Side Dishes</h2>
                     <Gallery></Gallery>
                 </div>
             </div>
