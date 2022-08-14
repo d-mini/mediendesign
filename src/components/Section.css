@@ -34,10 +34,16 @@
 }
 
 .shadow-image {
-    height: 300px;
-    min-width: 300px;
+    height: 50vw;
+    min-width: 30vw;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+
+@media (min-width: 640px) { 
+    .shadow-image {
+        height: 30vw;
+    }
 }
 
 .shadow-image-green {

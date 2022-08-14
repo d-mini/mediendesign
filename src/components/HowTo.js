@@ -11,7 +11,7 @@ function HowTo() {
             <div className='w-full py-20 px-12 sm:py-24 sm:px-36'>
                 <div className='flex flex-col sm:flex-row'>
                     <img className='shadow-image shadow-image-green' src={ssam} alt='' />
-                    <div className='flex flex-col text-center sm:text-left'>
+                    <div className='flex flex-col text-center justify-center sm:text-left'>
                         <h1>How to eat</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>

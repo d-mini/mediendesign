@@ -1,9 +1,9 @@
 import React from 'react';
-import './Galery.css';
+import './Gallery.css';
 
-function GaleryImage(props) {
+function GalleryImage(props) {
   return (
-    <figure className='galeryImage'>
+    <figure className='galleryImage'>
       {props.children}
       <figcaption>
         <div>{props.label}</div>
@@ -13,4 +13,4 @@ function GaleryImage(props) {
   );
 }
 
-export default GaleryImage;
+export default GalleryImage;

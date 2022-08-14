@@ -1,16 +1,18 @@
 @import '../variables.css';
 
-.galery {
+.gallery {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+
+    gap: 8px;
 
     flex-wrap: wrap;
 }
 
-.galeryImage {
-    width: 300px;
-    height: 300px;
+.galleryImage {
+    height: 70vw;
+    width: 70vw;
 
     display: flex;
 	flex-direction: column;
@@ -19,14 +21,18 @@
     position: relative;
 }
 
-.galeryImage img {
-    width: 100%;
-    height: 100%;
+@media (min-width: 640px) { 
+    .galleryImage {
+        height: 25vw;
+        width: 25vw;
+    }
+}
 
+.galleryImage img {
     transition: all 0.25s;
 }
 
-.galeryImage figcaption {
+.galleryImage figcaption {
     width: 100%;
     display: none;
     color: var(--white);
@@ -38,10 +44,10 @@
     transform: translate(-50%, -50%);
 }
 
-.galeryImage:hover figcaption {
+.galleryImage:hover figcaption {
     display: block;
 }
 
-.galeryImage:hover img {
+.galleryImage:hover img {
     filter: brightness(70%);
 }
