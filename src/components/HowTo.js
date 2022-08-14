@@ -13,7 +13,7 @@ function HowTo() {
             <ShadowImageSection
                 color='primary'
                 image={<img src={ssam} alt='' />}
-                title={<h1 className={`text-white lg:text-primary-light mb-3`}>How To Eat</h1>}
+                title={<h1 className={`text-white lg:text-primary mb-3`}>How To Eat</h1>}
                 content=
                 {
                     <div>
