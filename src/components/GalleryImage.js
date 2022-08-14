@@ -7,9 +7,9 @@ function GalleryImage(props) {
     <figure className='galleryImage'>
       {props.children}
       <figcaption className='w-full text-white text-center'>
-        <div className='font-medium'>{props.label}</div>
+        <div className='font-bold'>{props.label}</div>
         {
-          description.length > 0 &&
+          description &&
           <div>{props.description}</div>
         }
       </figcaption>

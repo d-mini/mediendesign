@@ -42,7 +42,9 @@ function Ingredients() {
                         <GalleryImage label='Garlic' description=''>
                             <img src={garlic} alt='Garlic' />
                         </GalleryImage>
-                        <GalleryImage label='Kkaennip' description='Perilla Leaf'>
+                        <GalleryImage label='깻잎' description={
+                            <div>"Kkaennip"<br/>Perilla Leaf</div>
+                        }>
                             <img src={perilla} alt='Perilla Leafs' />
                         </GalleryImage>
                     </Gallery>
@@ -53,13 +55,19 @@ function Ingredients() {
                 <div className='flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-6 py-12 px-12 sm:py-16 sm:px-16'>
                     <h2 className='text-secondary-light order-first xl:order-last sm:self-end xl:self-auto flex-shrink-0'>Side Dishes</h2>
                     <Gallery>
-                        <GalleryImage label='Pa Muchim' description='Scallion Salad'>
+                        <GalleryImage label='파 무침' description={
+                            <div>"Pa Muchim"<br/>Scallion Salad</div>
+                        }>
                             <img src={scallions} alt='Scallions' />
                         </GalleryImage>
-                        <GalleryImage label='Kimchi' description='Fermented Cabbage'>
-                            <img src={kimchi} alt='Pork Belly' />
+                        <GalleryImage label='김치' description={
+                            <div>"Kimchi"<br/>Fermented Napa Cabbage</div>
+                        }>
+                            <img src={kimchi} alt='Kimchi' />
                         </GalleryImage>
-                        <GalleryImage label='Kongnamul Muchim' description='Soybean Sprouts'>
+                        <GalleryImage label='콩나물 무침' description={
+                            <div>"Kongnamul Muchim"<br/>Soybean Sprouts</div>
+                        }>
                             <img src={sprouts} alt='Sprouts' />
                         </GalleryImage>
                     </Gallery>

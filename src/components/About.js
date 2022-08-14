@@ -19,13 +19,13 @@ function About() {
                     <div className='relative self-center'>
                         <div className='grid grid-cols-2 lg:grid-cols-[32px_minmax(0,_1fr)] grid-rows-3 gap-x-4 gap-y-2 items-end'>
                             <span className='text-primary-light text-3xl font-semibold text-right lg:text-left'>삼</span>
-                            <span>sam - three</span>
+                            <span>"sam" - three</span>
 
                             <span className='text-primary-light text-3xl font-semibold text-right lg:text-left'>겹</span>
-                            <span>gyeop - layers</span>
+                            <span>"gyeop" - layers</span>
 
                             <span className='text-primary-light text-3xl font-semibold text-right lg:text-left'>살</span>
-                            <span>sal - meat</span>
+                            <span>"sal" - meat</span>
                         </div>
 
                         <div className='mt-4 italic text-center lg:text-left text-sm'>- Meaning of 삼겹살</div>
