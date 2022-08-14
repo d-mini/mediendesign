@@ -1,14 +1,5 @@
 @import '../variables.css';
 
-.about h1,
-.howto h1 {
-    color: var(--primary);
-}
-
-.ingredients h1 {
-    color: var(--secondary);
-}
-
 .section-color {
     background-color: var(--main-light);
 }
@@ -43,6 +34,12 @@
 @media (min-width: 768px) { 
     .shadow-image {
         height: 30vw;
+    }
+}
+
+@media (min-width: 1024px) { 
+    .shadow-image {
+        max-width: 30vw;
     }
 }
 

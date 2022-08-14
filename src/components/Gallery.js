@@ -8,7 +8,7 @@ import scallions from '../images/scallions.webp';
 
 function Gallery() {
   return (
-    <div className='gallery'>
+    <div className='w-full flex justify-center sm:justify-between gap-8 sm:gap-0 flex-wrap'>
       <GalleryImage label='Pa Muchim' description='Scallion Salad'>
         <img src={scallions} alt='Scallions' />
       </GalleryImage>
