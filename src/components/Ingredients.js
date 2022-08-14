@@ -51,7 +51,7 @@ function Ingredients() {
 
             <div className='w-full section-color-left'>
                 <div className='flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-6 py-12 px-12 sm:py-16 sm:px-16'>
-                    <h2 className='text-secondary-light order-first xl:order-last sm:self-end xl:self-auto'>Side Dishes</h2>
+                    <h2 className='text-secondary-light order-first xl:order-last sm:self-end xl:self-auto flex-shrink-0'>Side Dishes</h2>
                     <Gallery>
                         <GalleryImage label='Pa Muchim' description='Scallion Salad'>
                             <img src={scallions} alt='Scallions' />
