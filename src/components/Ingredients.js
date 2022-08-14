@@ -10,7 +10,7 @@ function Ingredients() {
         <div className='ingredients w-full'>
             <img className='section__image' src={samgyeopsal} alt='' />
 
-            <div className='py-20 px-12 sm:py-24 sm:px-36 flex flex-col sm:flex-row'>
+            <div className='py-20 px-12 sm:py-16 sm:px-36 flex flex-col gap-8 sm:flex-row'>
                 <img className='shadow-image shadow-image-red' src={porkBelly} alt='' />
                 <div className='flex flex-col text-center justify-center sm:text-left'>
                     <h1>Ingredients</h1>
@@ -19,16 +19,16 @@ function Ingredients() {
             </div>
 
             <div className='w-full section-color-right'>
-                <div className='flex flex-col xl:flex-row items-center justify-center py-12 px-12 sm:py-16 sm:px-16'>
-                    <h2>Test</h2>
+                <div className='flex flex-col xl:flex-row items-center justify-center gap-4 sm:gap-8 py-12 px-12 sm:py-16 sm:px-16'>
+                    <h2>Vegetables</h2>
                     <Gallery></Gallery>
                 </div>
             </div>
 
             <div className='w-full section-color-left'>
-                <div className='flex flex-col xl:flex-row items-center justify-center py-12 px-12 sm:py-16 sm:px-16'>
-                    <h2>Test</h2>
+                <div className='flex flex-col xl:flex-row items-center justify-center gap-4 sm:gap-8 py-12 px-12 sm:py-16 sm:px-16'>
                     <Gallery></Gallery>
+                    <h2 className='order-first sm:order-none'>Side Dishes</h2>
                 </div>
             </div>
         </div>
