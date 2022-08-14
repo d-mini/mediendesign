@@ -23,7 +23,7 @@ function About() {
                             <span>sal - meat</span>
                         </div>
 
-                        <div className='mt-2 text-center lg:text-left'>- Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                        <div className='mt-4 text-center lg:text-left text-sm'>- Meaning of 삼겹살</div>
                     </div>
                 </div>
             </div>
