@@ -28,11 +28,11 @@ function Ingredients() {
                 content=
                 {
                     <div>
-                        <p>
-                            The main ingredient of samgyeopsal are <span className='font-bold text-secondary-light'>thick, fatty slices of pork belly</span> which are grilled on a metal griddle or charcoal grill. The meat is <span className='font-bold text-secondary-light'>usually neither marinated nor seasoned</span>.
+                        <p className='mb-2'>
+                            The main ingredient of 삼겹살 are <span className='font-bold text-white lg:text-secondary-light'>thick, fatty slices of pork belly</span> which are grilled on a metal griddle or charcoal grill. The meat is <span className='font-bold text-white lg:text-secondary-light'>usually neither marinated nor seasoned</span>.
                         </p>
                         <p>
-                            Common accompaniments for 삼겹살 are several <span className='font-bold text-secondary-light'>vegetables</span> which are used to wrap the meat, can be eaten raw or grilled along with the meat, <span className='font-bold text-secondary-light'>Korean side dishes and dipping sauces</span> such as <span className='font-bold text-secondary-light'>쌈장</span> („ssamjang“, thick spicy paste made with Korean chili paste and soy bean paste) and <span className='font-bold text-secondary-light'>기름장</span> („gireum-jang“, made with sesame oil, salt, and black pepper).
+                            Common accompaniments for 삼겹살 are several <span className='font-bold text-white lg:text-secondary-light'>vegetables</span> which are used to wrap the meat, can be eaten raw or grilled along with the meat, <span className='font-bold text-white lg:text-secondary-light'>Korean side dishes and dipping sauces</span> such as <span className='font-bold text-white lg:text-secondary-light'>쌈장</span> ("ssamjang", thick spicy paste made with Korean chili paste and soy bean paste) and <span className='font-bold text-white lg:text-secondary-light'>기름장</span> ("gireumjang", made with sesame oil, salt, and black pepper).
                         </p>
                     </div>
                 }

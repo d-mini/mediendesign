@@ -17,12 +17,25 @@ function HowTo() {
                 content=
                 {
                     <div>
-                        <div className='mb-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        <div className='mb-2'>
+                            Usually, diners grill the meat themselves, flipping and cutting them with tongs and scissors, and eat directly from the grill. Additionally, 삼겹살 is commonly eaten as <span className='font-bold text-primary-light'>쌈</span> ("ssam", wrap).
+                        </div>
                         <ol className='list-decimal'>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+                            <li>
+                                Grill the meat (and preferred vegetables) on the grill until both sides of the meat are cooked or even a little crispy.
+                            </li>
+                            <li>
+                                Put a piece of lettuce on a plate or in your hand. Add a piece of perilla leaf and a piece of cooked pork.
+                            </li>
+                            <li>
+                                Add accompaniments to preference such as ssamjang, sliced garlic, and some scallion salad for example.
+                            </li>
+                            <li>
+                                Fold the lettuce leaf over so that you have a bite-sized package.
+                            </li>
+                            <li>
+                                Eat the wrap in one mouthful!
+                            </li>
                         </ol>
                     </div>
                 }
@@ -40,7 +53,7 @@ function HowTo() {
             </div>
 
             <div className='w-full section-color'>
-                <div className='py-12 px-12 sm:py-16 sm:px-16 flex flex-col sm:flex-row gap-4'>
+                <div className='py-12 px-12 sm:py-16 sm:px-16 flex flex-col sm:flex-row gap-8'>
                     <img src={bokkeumBap} alt='' />
                     <img src={doenjang} alt='' />
                 </div>
