@@ -41,7 +41,7 @@ function HowTo() {
                 }
             >
             </ShadowImageSection>
-            <div className='w-full flex flex-col gap-8 pt-6 pb-12 px-12 sm:px-20 lg:pb-24 lg:px-28 xl:px-36 text-center'>
+            <div className='w-full flex flex-col gap-8 pb-12 px-12 sm:px-20 lg:pb-24 lg:px-28 xl:px-36 text-center'>
                 <div className='relative'>
                     <p className='mb-2'>
                         삼겹살 is often accompanied by shots of <span className='font-bold text-primary-light'>소주</span> („soju“, a rice-based Korean liquor) as it helps to wash away the greasiness of the grilled meat.
@@ -63,7 +63,7 @@ function HowTo() {
                 </div>
             </div>
 
-            <div className='w-full py-12 px-8 sm:py-16 sm:px-16 xl:py-20 xl:px-20 section-color'>
+            <div className='w-full py-16 px-8 sm:py-16 sm:px-16 xl:py-20 xl:px-20 section-color'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-8'>
                     <figure className='grow-1'>
                         <img src={doenjang} alt='Stew' />
