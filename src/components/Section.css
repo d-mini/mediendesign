@@ -35,13 +35,22 @@
 
 @media (min-width: 768px) { 
     .shadow-image {
-        height: 30vw;
+        min-height: 30vw;
+        width: 100%;
     }
 }
 
 @media (min-width: 1024px) { 
     .shadow-image {
-        max-width: 30vw;
+        height: 40vw;
+        max-width: 40vw;
+    }
+}
+
+@media (min-width: 1280px) { 
+    .shadow-image {
+        max-height: 30vh;
+        max-width: 40vw;
     }
 }
 

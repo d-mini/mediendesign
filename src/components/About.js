@@ -3,8 +3,8 @@ import './Section.css';
 
 function About() {
     return (
-        <div className='about w-full'>
-            <div className='py-20 px-12 sm:py-24 sm:px-36'>
+        <div className='about'>
+            <div className='w-full py-16 px-12 xl:py-24 xl:px-36'>
                 <div className='relative grid gap-8 lg:gap-16 lg:grid-cols-2 grid-rows-1'>
                     <div className='relative text-center lg:text-right'>
                         <h1 className='text-primary mb-3'>About</h1>
@@ -17,7 +17,7 @@ function About() {
                     </div>
                     <div className='border-t-2 border-primary lg:absolute h-full lg:col-start-1 lg:col-end-3 lg:left-1/2 lg:border-t-0 lg:border-l-2'></div>
                     <div className='relative self-center'>
-                        <div className='grid grid-cols-2 lg:grid-cols-[32px_minmax(0,_1fr)] grid-rows-3 gap-x-4 gap-y-2 items-end'>
+                        <div className='grid grid-cols-[minmax(0,_1fr)_minmax(128px,_1fr)] grid-rows-3 lg:grid-cols-[32px_minmax(0,_1fr)]  gap-x-4 gap-y-2 items-start lg:items-end'>
                             <span className='text-primary-light text-3xl font-semibold text-right lg:text-left'>삼</span>
                             <span>"sam" - three</span>
 
@@ -34,7 +34,7 @@ function About() {
             </div>
 
             <div className='w-full section-color'>
-                <div className='text-center text-white py-20 px-12 sm:py-24 sm:px-24'>
+                <div className='text-center text-white py-16 px-12 sm:px-20 xl:py-24 xl:px-48'>
                     <h2 className='text-primary-light mb-3'>More Interesting Facts</h2>
                     <ul className='list-disc'>
                         <li className='mb-2'>

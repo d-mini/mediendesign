@@ -32,15 +32,15 @@ function Ingredients() {
                             The main ingredient of 삼겹살 are <span className='font-bold text-white lg:text-secondary-light'>thick, fatty slices of pork belly</span> which are grilled on a metal griddle or charcoal grill. The meat is <span className='font-bold text-white lg:text-secondary-light'>usually neither marinated nor seasoned</span>.
                         </p>
                         <p>
-                            Common accompaniments for 삼겹살 are several <span className='font-bold text-white lg:text-secondary-light'>vegetables</span> which are used to wrap the meat, can be eaten raw or grilled along with the meat, <span className='font-bold text-white lg:text-secondary-light'>Korean side dishes and dipping sauces</span> such as <span className='font-bold text-white lg:text-secondary-light'>쌈장</span> ("ssamjang", thick spicy paste made with Korean chili paste and soy bean paste) and <span className='font-bold text-white lg:text-secondary-light'>기름장</span> ("gireumjang", made with sesame oil, salt, and black pepper).
+                            Common accompaniments for 삼겹살 are several <span className='font-bold text-white lg:text-secondary-light'>vegetables</span> which are used to wrap the meat, can be eaten raw or grilled along with the meat, <span className='font-bold text-white lg:text-secondary-light'>Korean side dishes and dipping sauces</span> such as <span className='font-bold text-white lg:text-secondary-light'>쌈장</span> ("ssamjang", a thick spicy paste made with Korean chili paste and soy bean paste) and <span className='font-bold text-white lg:text-secondary-light'>기름장</span> ("gireumjang", made with sesame oil, salt, and black pepper).
                         </p>
                     </div>
                 }
             >
             </ShadowImageSection>
 
-            <div className='w-full section-color-right'>
-                <div className='flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-6 py-12 px-12 sm:py-16 sm:px-16'>
+            <div className='w-full py-12 px-8 sm:pb-8 sm:pt-4 sm:px-12 lg:py-16 lg:px-16 xl:py-20 xl:px-20 section-color-right'>
+                <div className='flex flex-col xl:flex-row items-center justify-center gap-2 xl:gap-6'>
                     <h2 className='text-secondary-light sm:self-start xl:self-auto xl:text-right'>Vegetables</h2>
                     <Gallery>
                         <GalleryImage label='Lettuce' description=''>
@@ -58,8 +58,8 @@ function Ingredients() {
                 </div>
             </div>
 
-            <div className='w-full section-color-left'>
-                <div className='flex flex-col xl:flex-row items-center justify-center gap-4 xl:gap-6 py-12 px-12 sm:py-16 sm:px-16'>
+            <div className='w-full py-12 px-8 sm:pb-8 sm:pt-4 sm:px-12 lg:py-16 lg:px-16 section-color-left'>
+                <div className='flex flex-col xl:flex-row items-center justify-center gap-2 xl:gap-6'>
                     <h2 className='text-secondary-light order-first xl:order-last sm:self-end xl:self-auto flex-shrink-0'>Side Dishes</h2>
                     <Gallery>
                         <GalleryImage label='파 무침' description={

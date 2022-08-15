@@ -1,16 +1,16 @@
 @import '../variables.css';
 
 .galleryImage {
-    height: 70vw;
-    width: 70vw;
+    height: 75vw;
+    width: 75vw;
 
     position: relative;
 }
 
 @media (min-width: 640px) {
     .galleryImage {
-        height: 24vw;
-        width: 24vw;
+        height: 25vw;
+        width: 25vw;
     }
 }
 
