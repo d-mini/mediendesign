@@ -6,7 +6,7 @@ function Footer() {
       <span className='h-full'>
         <svg className='h-full' viewBox="0 0 1024 512" xmlns="http://www.w3.org/2000/svg">
           <g fill='#fff'>
-            <text x="83.533px" y="363.666px" style={{ fontFamily: 'NanumMyeongjo, Nanum Myeongjo, serif', fontSize: '300px' }}>삼겹살</text>
+            <text x="83.533px" y="363.666px" style={{ fontFamily: 'Nanum Myeongjo', fontSize: '300px' }}>삼겹살</text>
             <g fillOpacity={0}>
               <path d="M1024,49.072l-49.072,-49.072l-925.856,0l-49.072,49.072l0,413.856l49.072,49.072l925.856,0l49.072,-49.072l-0,-413.856Z" />
             </g>
