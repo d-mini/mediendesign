@@ -7,11 +7,11 @@ module.exports = {
     extend: {
       colors: {
         'main': '#181818',
-        'main-light': '#D9B391',
+        'main-light': '#D9B596',
         'primary': '#022601',
-        'primary-light': '#055902',
-        'secondary': '#731717',
-        'secondary-light': '#A61B1B',
+        'primary-light': '#067302',
+        'secondary': '#8C1B1B',
+        'secondary-light': '#BF3415',
       },
     },
   },

@@ -11,11 +11,11 @@
 }
 
 .navbar-green {
-    background: rgba(2, 38, 1, 0.85);
+    background: rgba(2, 38, 1, 0.9);
 }
 
 .navbar-red {
-    background: rgba(115, 23, 23, 0.85);
+    background: rgba(140, 27, 27, 0.9);
 }
 
 .navbar-green, .navbar-red {

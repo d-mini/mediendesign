@@ -651,7 +651,7 @@ video {
 }
 .text-primary-light {
   --tw-text-opacity: 1;
-  color: rgb(5 89 2 / var(--tw-text-opacity));
+  color: rgb(6 115 2 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -659,11 +659,11 @@ video {
 }
 .text-secondary {
   --tw-text-opacity: 1;
-  color: rgb(115 23 23 / var(--tw-text-opacity));
+  color: rgb(140 27 27 / var(--tw-text-opacity));
 }
 .text-secondary-light {
   --tw-text-opacity: 1;
-  color: rgb(166 27 27 / var(--tw-text-opacity));
+  color: rgb(191 52 21 / var(--tw-text-opacity));
 }
 @media (min-width: 640px) {
 
