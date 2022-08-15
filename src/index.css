@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Namun Myeongjo';
-  src: local('Namun Myeongjo'), url(./fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf) format('truetype');
+  font-family: 'Namun_Myeongjo';
+  src: local('Namun_Myeongjo'), url(./fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf) format('truetype');
 }
 
 * {
