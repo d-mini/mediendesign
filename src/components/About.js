@@ -9,7 +9,7 @@ function About() {
                     <div className='relative text-center lg:text-right'>
                         <h1 className='text-primary mb-3'>About</h1>
                         <p className='mb-2'>
-                            <span className='font-bold text-primary-light'>삼겹살</span> ("samgyeopsal", pork-belly) or 삼겹살-구이 ("samgyeopsal-gui", grilled pork belly) is one of the most popular grilled meat dishes in the Korean cuisine which uses pork belly meat as its main ingredient.
+                            <span className='font-bold text-primary-light'>삼겹살</span> ("samgyeopsal", pork-belly) or <span className='font-bold text-primary-light'>삼겹살-구이</span> ("samgyeopsal-gui", grilled pork belly) is one of the most popular grilled meat dishes in the Korean cuisine which uses pork belly meat as its main ingredient.
                         </p>
                         <p>
                             The literal translation of 삼겹살 is <span className='font-bold text-primary-light'>"three-layered meat"</span>, referring to the three visible layers of the meat.
@@ -41,7 +41,7 @@ function About() {
                             Due to its great popularity in South Korea, the third day of the third month, the <span className='font-bold'>3rd March</span>, is a designated day to promote the consumption of the grilled pork belly, the <span className='font-bold'>"Samgyeopsal Day"</span>.
                         </li>
                         <li>
-                            There is a <span className='font-bold'>myth</span> in South Korea that <span className='font-bold'>eating 삼겹살 protects humans from air pollution</span> by fine dust. This is thought to have originated from the practice of Korean miners eating pork after an intensive mining operation.
+                            There is a <span className='font-bold'>myth</span> in South Korea that eating 삼겹살 protects humans from air pollution by fine dust. This is thought to have originated from the practice of Korean miners eating pork after an intensive mining operation.
                         </li>
                     </ul>
                 </div>

@@ -67,11 +67,11 @@ function HowTo() {
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-12 sm:gap-8'>
                     <figure className='grow-1'>
                         <img src={doenjang} alt='Stew' />
-                        <figcaption className='text-center text-white font-medium text-sm italic'>된장찌개 "doenjang-jjigae"</figcaption>
+                        <figcaption className='text-center text-white text-sm italic'>된장찌개 "doenjang-jjigae"</figcaption>
                     </figure>
                     <figure className='grow-1'>
                         <img src={bokkeumBap} alt='Fried Rice' />
-                        <figcaption className='text-center text-white font-medium text-sm italic'>볶음밥 "bokkeum-bap"</figcaption>
+                        <figcaption className='text-center text-white text-sm italic'>볶음밥 "bokkeum-bap"</figcaption>
                     </figure>
                 </div>
             </div>
