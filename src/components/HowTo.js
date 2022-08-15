@@ -12,13 +12,13 @@ function HowTo() {
         <div className='howto w-full'>
             <ShadowImageSection
                 color='primary'
-                image={<img src={ssam} alt='' />}
+                image={<img src={ssam} alt='Wrap' />}
                 title={<h1 className={`text-white lg:text-primary mb-3`}>How To Eat</h1>}
                 content=
                 {
                     <div>
                         <div className='mb-2'>
-                            Usually, diners grill the meat themselves, flipping and cutting them with tongs and scissors, and eat directly from the grill. Additionally, 삼겹살 is commonly eaten as <span className='font-bold text-primary-light'>쌈</span> ("ssam", wrap).
+                            Usually, diners grill the meat themselves, flipping and cutting them with tongs and scissors, and eat directly from the grill. Additionally, 삼겹살 is commonly enjoyed by dipping the meat in gireumjang and eating it with some rice and kimchi or as <span className='font-bold text-primary-light'>쌈</span> ("ssam", wrap).
                         </div>
                         <ol className='list-decimal'>
                             <li>
@@ -41,21 +41,36 @@ function HowTo() {
                 }
             >
             </ShadowImageSection>
-            <div className='w-full flex flex-col gap-8 pt-0 pb-20 px-12 sm:pb-24 sm:px-36'>
+            <div className='w-full flex flex-col gap-8 pt-0 pb-20 px-12 sm:pb-24 sm:px-36 text-center'>
                 <div className='relative'>
-                    <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <div className='absolute -right-8 sm:-right-16 xl:-right-24 bottom-0 h-full max-h-24'>
-                        <img src={soju} alt='' className='h-full w-auto -rotate-12' />
+                    <p>
+                        삼겹살 is often accompanied by shots of <span className='font-bold text-primary-light'>소주</span> („soju“, a rice-based Korean liquor) as it helps to wash away the greasiness of the grilled meat.
+                        Other than that, 삼겹살 is often served alongside <span className='font-bold text-primary-light'>된장찌개</span> ("doenjang-jjigae", a Korean soybean paste stew).
+                        At the end, leftover meat is sometimes also mixed with rice, seaweed flakes, and seasonings to make <span className='font-bold text-primary-light'>볶음밥</span> ("bokkeum-bap", fried rice) on the grill.
+                    </p>
+                    <div className='absolute -right-8 sm:-right-16 xl:-right-24 top-0 h-full max-h-24'>
+                        <img src={soju} alt='Soju' className='h-full w-auto -rotate-12' />
                         <span>Test</span>
                     </div>
                 </div>
-                <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div>
+                    <h2 className='text-primary-light mb-3'>Enjoy 삼겹살 With Others!</h2>
+                    <p>
+                        Because the cooking and eating is done at the table, 삼겹살 is really social and a great dish to enjoy with other people so that everyone can take part in the grilling process. As it is also simple to make, it can be eaten not only in restaurants but also at home or at camping sites.
+                    </p>
+                </div>
             </div>
 
             <div className='w-full section-color'>
                 <div className='py-12 px-12 sm:py-16 sm:px-16 flex flex-col sm:flex-row gap-8'>
-                    <img src={bokkeumBap} alt='' />
-                    <img src={doenjang} alt='' />
+                    <figure>
+                        <img src={doenjang} alt='Stew' />
+                        <figcaption className='text-center text-white font-medium text-sm italic'>된장찌개 "doenjang-jjigae"</figcaption>
+                    </figure>
+                    <figure>
+                        <img src={bokkeumBap} alt='Fried Rice' />
+                        <figcaption className='text-center text-white font-medium text-sm italic'>볶음밥 "bokkeum-bap"</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
