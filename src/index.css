@@ -5,6 +5,8 @@
 @font-face {
   font-family: 'Logo Font';
   src: local('Logo Font'), url(./fonts/Noto_Serif_KR/NotoSerifKR-Regular.otf) format('opentype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 * {
